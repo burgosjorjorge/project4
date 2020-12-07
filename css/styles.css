@@ -397,7 +397,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-.btn {
+.default, .error, .info, .success, .warning {
   margin-top: 15px;
   width: 100%;
   color: #fff;

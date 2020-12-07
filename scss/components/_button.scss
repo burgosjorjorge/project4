@@ -2,7 +2,7 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {
+%btn {
     margin-top: 15px;
     width: 100%;
     color: $color-white;
@@ -13,21 +13,26 @@
   }
   
   .default {
+      @extend %btn;
     background-color: $color-secondary;
   }
   
   .error {
+      @extend %btn;
     background-color: $color-error;
   }
   
   .info {
+      @extend %btn;
     background-color: #927bc1;
   }
   
   .success {
+      @extend %btn;
     background-color: #63cc82;
   }
   
   .warning {
+      @extend %btn;
     background-color: #fd7856;
   }
