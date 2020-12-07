@@ -398,11 +398,10 @@ a {
 /*              Buttons                          */
 /* ============================================= */
 .default, .error, .info, .success, .warning {
-  margin-top: 15px;
   width: 100%;
-  color: #fff;
-  border: none;
   padding: 10px 0;
+  margin-top: 15px;
+  color: #fff;
   text-transform: uppercase;
   border-radius: 5px;
 }
@@ -438,8 +437,8 @@ a {
   display: block;
   width: 94%;
   margin: 10px auto 0;
-  border: none;
   padding: 10px;
+  border: none;
   border-bottom: 5px solid #58e1c1;
 }
 
@@ -529,28 +528,16 @@ a {
 /*              Images                           */
 /* ============================================= */
 .img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
 }
 
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
   border: 1px solid #ccc;
-}
-
-.img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* ============================================= */

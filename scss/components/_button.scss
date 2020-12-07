@@ -3,13 +3,14 @@
 /* ============================================= */
 
 %btn {
-    margin-top: 15px;
-    width: 100%;
-    color: $color-white;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+    @include margin($w: 100%,
+    $pad: 10px 0) {
+        margin-top: 15px;
+        color: $color-white;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    
   }
   
   .default {

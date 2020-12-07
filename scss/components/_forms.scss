@@ -7,19 +7,25 @@
   }
   
   .input{
-    display: block;
-    width: 94%;
-    margin: 10px auto 0;
-    border: none;
-    padding: 10px;
-    border-bottom: 5px solid $color-primary;
+    @include center($disp: block);
+    @include margin(94%,
+    10px auto 0,
+    10px) {
+        border: none;
+        border-bottom: 5px solid $color-primary;
+    }
+    
   }
   
   .hidden {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
+      @include position($abs: absolute,
+      $left: -10000px,
+      $top: auto) {
+        width:1px;
+        height:1px;
+        overflow:hidden;
+      }
+    
+    
+    
   }

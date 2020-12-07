@@ -1,6 +1,56 @@
-@mixin center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+// Create page centering mixing
+@mixin center(
+    $disp:null,
+    $margin-l:null,
+    $margin-r:null
+) {
+    display: $disp;
+    margin-left: $margin-l;
+    margin-right: $margin-r;
     @content;
+}
+
+// Create margin mixin
+
+@mixin margin(
+    $w: null,
+    $mar: null,
+    $pad: null 
+) {
+    width: $w;
+    margin: $mar;
+    padding: $pad;
+    @content;
+}
+
+// Create position mixin
+
+@mixin position (
+    $abs: null,
+    $left: null,
+    $top: null,
+    $right: null,
+    $bott: null
+) {
+    position: $abs;
+    left: $left;
+    top: $top;
+    right: $right;
+    bottom: $bott;
+    @content;
+}
+
+// Create flex mixing
+
+@mixin flexy (
+    $disp: flex,
+    $dir: null,
+    $wrap: null,
+    $just: null
+) {
+    display: $disp;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    
 }

@@ -4,7 +4,8 @@
 @media (min-width: 768px) {
 
     .container {
-        @include center {
+        @include center (block,
+        auto, auto){
             max-width: 1400px;
         }
       
@@ -12,7 +13,8 @@
     }
     
     .centered {
-      @include center;
+      @include center(block,
+      auto, auto);
     }
     
     .row {
