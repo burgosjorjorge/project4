@@ -19,6 +19,8 @@
     border-radius: 5px;
   }
   
+// each loop
+
   @each $theme, $color in $themes {
       .theme.col-#{$theme} {
           background-color: $color;
