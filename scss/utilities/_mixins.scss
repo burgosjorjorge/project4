@@ -58,11 +58,10 @@
 
 // Media queries
 
-$break-m: 768px;
 
 @mixin mq($break) {
     @if $break == 'm' {
-        @media (min-width: $break-m) {
+        @media (min-width: map-get($breakpoint, 'm')) {
             @content;
         }
     }
