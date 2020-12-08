@@ -15,25 +15,47 @@
   
   .default {
       @extend %btn;
-    background-color: $color-secondary;
+        background-color: $color-secondary;
+        &:hover {
+            background-color: $secondary-light;
+            color: $color-black;
+        }
   }
+  
   
   .error {
       @extend %btn;
     background-color: $color-error;
+    &:hover {
+        background-color: $error-light;
+        color: $color-black;
+    }
   }
   
   .info {
       @extend %btn;
     background-color: #927bc1;
+    &:hover {
+        background-color: $color-info;
+        color: $color-black;
+    }
   }
   
   .success {
       @extend %btn;
     background-color: #63cc82;
+    &:hover {
+        background-color: $color-success;
+        color: $color-black;
+    }
   }
+  
   
   .warning {
       @extend %btn;
     background-color: #fd7856;
+    &:hover {
+        background-color: $color-warning;
+        color: $color-black;
+    }
   }

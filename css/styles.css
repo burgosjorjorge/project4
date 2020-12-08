@@ -410,20 +410,45 @@ a {
   background-color: #51ddfc;
 }
 
+.default:hover {
+  background-color: #cef5fe;
+  color: #000;
+}
+
 .error {
   background-color: #e4757a;
+}
+
+.error:hover {
+  background-color: #f9e0e1;
+  color: #000;
 }
 
 .info {
   background-color: #927bc1;
 }
 
+.info:hover {
+  background-color: #dad2ea;
+  color: #000;
+}
+
 .success {
   background-color: #63cc82;
 }
 
+.success:hover {
+  background-color: #c3ebcf;
+  color: #000;
+}
+
 .warning {
   background-color: #fd7856;
+}
+
+.warning:hover {
+  background-color: #feddd4;
+  color: #000;
 }
 
 /* ============================================= */

@@ -5,7 +5,13 @@ $color-secondary: #51ddfc;
 $color-accent: #777;
 $color-white: #fff;
 $color-error: #e4757a;
+$color-black: #000;
 $primary-light: lighten($color-primary, 25%);
+$secondary-light: lighten($color-secondary, 25%);
+$color-success: lighten(#63cc82, 25%);
+$color-warning: lighten(#fd7856, 25%);
+$color-info: lighten(#927bc1, 25%);
+$error-light: lighten($color-error, 25%);
 
 // Font
 
