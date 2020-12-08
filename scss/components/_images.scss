@@ -3,7 +3,11 @@
 /* ============================================= */
 
 .img-avatar {
-    @include center {
+    @include center(
+        block,
+        auto,
+        auto
+    ) {
         margin-top: 10px;
         max-width: 100%; 
         max-height: 100%;
@@ -12,7 +16,11 @@
   }
   
   .img-frame {
-    @include center {
+    @include center(
+        block,
+        auto,
+        auto
+    ) {
         margin-top: 10px;
         max-width: 100%;
         padding: 13px;
@@ -22,5 +30,7 @@
   }
   
   .img-logo {
-    @include center;
+    @include center(block,
+    auto,
+    auto);
   }
